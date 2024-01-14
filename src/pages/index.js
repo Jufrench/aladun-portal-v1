@@ -14,7 +14,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       {/* <StaticImage src="../images/full_white.png" alt="Aladun Logo" /> */}
       <img alt="Aladun Logo" src={full_white} style={{ display: "block", width: "40%" }} />
-      <h1 style={{ color: "#F2AA52", marginTop: "50px" }}>Portal Coming Soon...</h1>
+      <h1 style={{ color: "#F2AA52", marginTop: "50px", fontSize: "1.5rem" }}>Portal Coming Soon...</h1>
     </main>
   )
 }
@@ -28,7 +28,9 @@ export const Head = () => (
         position: "absolute",
         top: "45%",
         left: "50%",
-        transform: "translate(-50%, -50%)" }}></body>
+        transform: "translate(-50%, -50%)",
+        margin: 0,
+        width: "90%" }}></body>
     <title>Home Page</title>
   </>
 )
